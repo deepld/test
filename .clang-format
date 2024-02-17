@@ -1,0 +1,13 @@
+# Complete list of style options can be found at:
+# http://clang.llvm.org/docs/ClangFormatStyleOptions.html
+
+#Run manually to reformat a file:
+#clang-format -i --style=file <file>
+---
+Language: Cpp
+BasedOnStyle: Google
+ColumnLimit: 120
+---
+Language: Proto
+DisableFormat: false
+---
